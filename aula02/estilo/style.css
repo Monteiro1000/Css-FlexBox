@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.item {
+    background-color: purple;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5em;
+    flex: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
