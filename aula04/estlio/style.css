@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    font-family: monospace;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    
+}
+
+.item {
+    background-color: purple;
+    text-align: center;
+    margin: 5px;
+    font-size: 1.5em;
+    flex: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row-nowrap {
+    flex-flow: row nowrap;
+}
+
+.row-wrap{
+    flex-flow: row wrap;
+}
+
+.column-nowrap{
+    flex-flow: column nowrap;
+}
