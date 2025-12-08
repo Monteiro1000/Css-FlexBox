@@ -52,5 +52,5 @@ h1, h2 {
 
 .column {
     flex-direction: column;
-    height: 200px;
+    min-height: 200px;
 }
