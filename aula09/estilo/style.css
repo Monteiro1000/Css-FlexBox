@@ -83,16 +83,21 @@ h1 {
 	flex-basis: auto;
 }
 
+/* Com o flex-basis 0, itens com flex-grow 1 tentam ficar com o mesmo tamanho total de width. É por isso que o mais comum é utilizar flex-basis 0 */
+
 .basis-0 {
 	flex-grow: 1;
 	flex-basis: 0;
 }
+
+/* O tamanho total é de duas vezes dos itens com flex: 1; */ 
 
 .basis-0-grow-2 {
 	flex-basis: 0;
 	flex-grow: 2;
 }
 
+/* A definição do width é ignorada. Porém ele ainda respeita a definição de min-width. */
 .basis-0-width {
 	flex-grow: 1;
 	flex-basis: 0;
