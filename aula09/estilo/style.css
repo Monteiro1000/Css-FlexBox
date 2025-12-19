@@ -19,7 +19,7 @@ h1 {
 	font-weight: normal;
 }
 
-.overlay .basis-auto::before, .overlay .basis-auto-grow-2::before, .overlay.basis-auto-width::before {
+.overlay .basis-auto::before, .overlay .basis-auto-grow-2::before, .overlay .basis-auto-width::before {
 	content: '';
 	display: block;
 	width: 16px;
