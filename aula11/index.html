@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-shrink</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    
+
+    <h1>flex: n 1 auto;</h1>
+<section class="container">
+	<div class="item shrink-1">1</div>
+	<div class="item shrink-1">2</div>
+	<div class="item shrink-1">3</div>
+	<div class="item shrink-1">4</div>
+    <div class="item shrink-1">5</div>
+</section>
+
+
+<h1>flex: 1;</h1>
+<section class="container">
+	<div class="item">Teste de cont</div>
+	<div class="item">2</div>
+	<div class="item">Palavra</div>
+	<div class="item">4</div>
+    <div class="item">5</div>
+</section>
+
+<h1>flex: flex:0 1 n;</h1>
+<section class="container">
+	<div class="item">1</div>
+    <div class="item">12</div>
+	<div class="item">12345678910</div>
+	<div class="item">1234</div>
+	<div class="item">1</div>
+    <div class="item">12</div>
+	<div class="item">123</div>
+	<div class="item">1234</div>
+	
+</section>
+
+
+<h1>flex:0 1 n; // Diferente conteúdo
+</h1>
+<section class="container ">
+	<div class="item shrink-1">Conteúdo Grande</div>
+	<div class="item shrink-1">PalavraMaior</div>
+	<div class="item shrink-1">Oi</div>
+	
+</section>
+
+<h1>flex: 1 1 n; //</h1>
+<section class="container">
+	<div class="item">1</div>
+    <div class="item">12</div>
+	<div class="item">1234</div>
+	<div class="item">12345</div>
+    <div class="item">5</div>
+</section>
